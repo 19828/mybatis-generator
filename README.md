@@ -1,11 +1,10 @@
 ### [Mybatis代码生成器](https://github.com/wangxinforme/mybatis-generator)
 
 + 修改配置文件：
-	+ [generatorConfig-base.xml](src/main/resources/generatorConfig-base.xml)是生成普通代码的配置文件
-	+ [generatorConfig-business.xml](src/main/resources/generatorConfig-business.xml)是生成特殊业务代码的配置文件</br></br>
+	+ [generatorConfig-base.xml](src/main/resources/generatorConfig.xml)是生成代码的配置文件
 
 + 生成代码:
-	+ 找到[Generator](src/main/java/com/mybatis/generator/Generator.java)类，根据自己的需求，选择读取哪个配置文件
+	+ 找到[Generator](src/main/java/com/mybatis/generator/Generator.java)类，读配置文件
 	+ 执行generator方法</br></br>
 
 + 查看代码

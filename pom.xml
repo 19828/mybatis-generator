@@ -12,23 +12,22 @@
 	<repositories>
 		<repository>
 			<id>adobe</id>
-  			<url>https://repo.adobe.com/nexus/content/repositories/public/</url>
+			<url>https://repo.adobe.com/nexus/content/repositories/public/</url>
 		</repository>
 	</repositories>
 
 	<dependencies>
-
 		<!-- mybaits -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.4.1</version>
+			<version>3.4.5</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.mybatis.generator</groupId>
 			<artifactId>mybatis-generator-core</artifactId>
-			<version>1.3.5</version>
+			<version>1.3.6</version>
 		</dependency>
 
 		<!-- jdbc -->
@@ -37,13 +36,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.34</version>
 		</dependency>
-		
-		<dependency>
-		    <groupId>oracle</groupId>
-		    <artifactId>ojdbc</artifactId>
-		    <version>1.4</version>
-		</dependency>
 
+		<dependency>
+			<groupId>oracle</groupId>
+			<artifactId>ojdbc</artifactId>
+			<version>1.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>

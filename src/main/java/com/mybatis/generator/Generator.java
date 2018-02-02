@@ -9,11 +9,6 @@ import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
-/**
- * 
- * @author Vincent
- *
- */
 public class Generator {
 
     public static void main(String[] args) {
@@ -21,8 +16,7 @@ public class Generator {
 
             boolean overwrite = true;
 
-            // InputStream stream = Generator.this.getClass().getResource("/generatorConfig-base.xml").openStream();
-            InputStream stream = Generator.class.getClass().getResource("/generatorConfig-business.xml").openStream();
+            InputStream stream = Generator.class.getClass().getResource("/generatorConfig.xml").openStream();
 
             List<String> warnings = new ArrayList<String>();
             ConfigurationParser cp = new ConfigurationParser(warnings);
